@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.mini{
+    text-align: center;
+    font-size: 10px;
+}
+h2{
+    padding: 10px 10px;
+    font-size: 18px;
+}
+p{
+    padding: 10px 10px ;
+}
+.video_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

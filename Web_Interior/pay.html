@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/pay.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-left">
+            <a href="home.html">TRANG CHỦ</a>
+            <a href="products.html">SẢN PHẨM<span class="hot">HOT</span></a>
+            <a href="blog.html">TIN TỨC</a>
+            <a href="contact.html">GIỚI THIỆU</a>
+        </div>
+        <div class="logo">AUREX HOME</div>
+        <div class="nav-right">
+            <div class="search">
+                <input type="text" placeholder="Search for products...">
+            </div>
+            <div class="auth">
+                <a href="login.html" class="login">Login</a><span style="color: white;">|</span>
+                <a href="register.html" class="Register">Register</a>
+                <a href="cart.html">🛒 </a>
+            </div>
+        </div>
+    </header>
+    <div class="checkout">
+        <div class="left">
+
+            <h2>ĐỊA CHỈ GIAO HÀNG</h2>
+
+            <input type="text" placeholder="Họ và tên">
+            
+            <div class="row">
+                <input type="text" placeholder="Số điện thoại">
+                <input type="text" placeholder="Email">
+            </div>
+
+            <div class="row">
+                <select>
+                    <option>Thành phố Hồ Chí Minh</option>
+                </select>
+                <select>
+                    <option>Chọn phường/xã</option>
+                </select>
+            </div>
+            <input type="text" placeholder="Địa chỉ">
+            <h3>THÔNG TIN THÊM</h3>
+            <textarea placeholder="Ghi chú đơn hàng..."></textarea>
+            <h3>PHƯƠNG THỨC THANH TOÁN</h3>
+
+            <div class="payment">
+                <label class="method">
+                    <input type="radio" name="payment" checked>
+                    Chuyển khoản
+                </label>
+                <label class="method">
+                    <input type="radio" name="payment">
+                    Tiền mặt
+                </label>
+            </div>
+
+            <div class="bank">
+                <p><b>Ngân hàng MBBank</b></p>
+                <p>Số tài khoản: 0335760073</p>
+                <p>Chủ tài khoản: AUREX HOME</p>
+            </div>
+
+        </div>
+        <div class="right">
+
+            <h2>Tóm tắt đơn hàng</h2>
+
+            <div class="summary">
+                <p>Thành tiền <span>145.00$</span></p>
+                <p>Vận chuyển <span>00.00$</span></p>
+                <h3>Tổng cộng <span>145.00$</span></h3>
+            </div>
+
+            <div class="product">
+                <img src="Album/golden_chair1.jpg">
+                <div class="info">
+                    <p>Ghế Dining</p>
+                    <span>45.00$</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Album/ron_Leather_Chair1.jpg">
+                <div class="info">
+                    <p>Ron Leather Chair</p>
+                    <span>100.00$</span>
+                </div>
+            </div>
+
+            <div class="policy">
+                <p><b>Chính sách bán hàng</b></p>
+                <p>Thanh toán online hoặc chuyển khoản ngân hàng.</p>
+            </div>
+
+            <button class="order">ĐẶT MUA</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="ruler row">
+            <div class="footer_left">
+                <p class="td">Địa chỉ shop</p>
+                <p> AUREX LIVING <br>
+                    46 Đường Trần Văn Ơn, Phường Tân Sơn Nhì, TP.HCM <br>
+                    Chi nhánh: Đà Nẵng
+                </p>
+            </div>
+            <div class="footer_center">
+                <p class="td">Liên hệ & Giờ hoạt động</p>
+                <p>
+                    Hotline: 0335760073 <br>
+                    Email: nguyenvanduy207nd@gmail.com <br>
+                    Thứ 2 - CN: 8h00 - 21h00
+                </p>
+            </div>
+            <div class="footer_right">
+                <p class="td">Bản đồ & MXH</p>
+                <iframe width="300px" height="200px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4961.787597979664!2d106.6284639045219!3d10.80069634390715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529564806a78d%3A0x86bd17fa580e1666!2zNDYgVHLhuqduIFbEg24gxqBuLCBUw6JuIFPGoW4gTmjDrCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e1!3m2!1svi!2s!4v1775900191986!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

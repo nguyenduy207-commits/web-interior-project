@@ -1,0 +1,110 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.checkout {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* LEFT */
+.left {
+    width: 65%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left h2, .left h3 {
+    margin-top: 20px;
+}
+
+.left input, .left select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input, .row select {
+    width: 100%;
+}
+
+.payment {
+    display: flex;
+    gap: 15px;
+}
+
+.method {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.method input {
+    display: none;
+}
+
+.method:has(input:checked) {
+    border: 2px solid black;
+    background: #f0f0f0;
+}
+.bank{
+    margin: 15px;
+    line-height: 30px;
+}
+/* RIGHT */
+.right {
+    width: 35%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.summary p, .summary h3 {
+    display: flex;
+    justify-content: space-between;
+    margin:4px;
+}
+
+.product {
+    display: flex;
+    gap:10px;
+    margin: 15px;
+    align-items: center;
+}
+
+.product img {
+    width: 80px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.policy {
+    font-size: 14px;
+    color: #555;
+}
+
+.order {
+    width: 100%;
+    padding: 15px;
+    background: black;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}

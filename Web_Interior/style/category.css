@@ -1,0 +1,61 @@
+
+.category {
+    padding: 50px;
+    text-align: left; 
+    background: #f5f5f5;
+}
+/* Title */
+.category > .item span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0px;
+}
+
+/* LIST */
+.category-list {
+    display: flex;
+    gap: 20px;
+}
+
+/* CARD */
+.category-list .item {
+    background: white;
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s;
+ 
+}
+
+/* LINK */
+.category-list .item a {
+    text-decoration: none;
+    color: black;   
+    display: block;
+}
+
+/* IMAGE */
+.category-list .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* NAME */
+.category-list .item p {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+/* PRICE */
+.category-list .item span {
+    color: #333;
+    font-weight: bold;
+}
+
+/* HOVER */
+.category-list .item:hover {
+    transform: translateY(-5px);
+}

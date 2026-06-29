@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+
+/* LAYOUT */
+.product-detail{
+    display:flex;
+    gap:50px;
+    padding:50px;
+}
+
+/* LEFT */
+.left{
+    display:flex;
+    gap:15px;
+}
+
+/* THUMB */
+.thumbs{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.thumbs img{
+    width:80px;
+    border:1px solid #ddd;
+    cursor:pointer;
+}
+
+/* RADIO ẨN */
+input[type="radio"]{
+    display:none;
+}
+
+/* MAIN IMG */
+.main-img{
+    position:relative;
+    width:500px;
+    height:400px;
+}
+
+.main-img img{
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    opacity:0;
+    transition:0.3s;
+}
+
+/* ACTIVE IMG */
+#img1:checked ~ .main-img .img1{opacity:1;}
+#img2:checked ~ .main-img .img2{opacity:1;}
+#img3:checked ~ .main-img .img3{opacity:1;}
+#img4:checked ~ .main-img .img4{opacity:1;}
+
+/* RIGHT */
+.right{
+    max-width:600px;
+}
+
+.rating{
+    color:#888;
+    font-size:14px;
+}
+
+.price{
+    font-size:26px;
+    margin:10px 0;
+}
+
+/* QTY */
+.qty{
+    display:flex;
+    gap:10px;
+    margin:20px 0;
+}
+
+.qty input{
+    width:50px;
+    text-align:center;
+}
+
+/* BUTTON */
+.add-cart{
+    background:black;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    cursor:pointer;
+}
+
+/* ACTION */
+.actions{
+    margin:15px 0;
+    display:flex;
+    gap:20px;
+}
+
+/* ACCORDION */
+details{
+    border-top:1px solid #ddd;
+    padding:10px 0;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}

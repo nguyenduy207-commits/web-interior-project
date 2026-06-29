@@ -1,0 +1,88 @@
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin:15px;
+    padding-left: 30px;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.mega-menu1{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 1000px;
+    background: #f5f5f5;
+
+    display: none;
+    padding: 20px;
+
+    /* chia cột */
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.mega-menu2{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 400px;
+    background: #f5f5f5;
+
+    display: none;
+    padding: 20px;
+
+    /* chia cột */
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* hiện menu khi hover */
+.has-mega:hover .mega-menu1 {
+    display: grid;
+}
+.has-mega:hover .mega-menu2 {
+    display: grid;
+}
+
+/* cột */
+.column h4 {
+    margin-bottom: 10px;
+}
+
+.column a {
+    display: block;
+    padding: 5px 0;
+    color: #555;
+}
+
+
+.mega-menu1 {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.mega-menu2 {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.has-mega a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.column a:hover {
+    color: orange;
+    padding-left: 5px;
+    transition: 0.3s;
+}

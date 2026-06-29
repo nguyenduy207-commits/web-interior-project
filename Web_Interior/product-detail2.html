@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Product Detail</title>
+<link rel="stylesheet" href="style/detail.css">
+<link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-left">
+            <a href="home.html">TRANG CHỦ</a>
+            <a href="products.html">SẢN PHẨM<span class="hot">HOT</span></a>
+            <a href="blog.html">TIN TỨC</a>
+            <a href="contact.html">GIỚI THIỆU</a>
+        </div>
+        <div class="logo">AUREX HOME</div>
+        <div class="nav-right">
+            <div class="search">
+                <input type="text" placeholder="Search for products...">
+            </div>
+            <div class="auth">
+                <a href="login.html" class="login">Login</a><span style="color: white;">|</span>
+                <a href="register.html" class="Register">Register</a>
+                <a href="cart.html">🛒 </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="product-detail">
+
+        <!-- LEFT -->
+        <div class="left">
+
+            <!-- RADIO -->
+            <input type="radio" name="img" id="img1" checked>
+            <input type="radio" name="img" id="img2">
+            <input type="radio" name="img" id="img3">
+
+            <!-- THUMB -->
+            <div class="thumbs">
+                <label for="img1"><img src="Album/ron_Leather_Chair1.jpg"></label>
+                <label for="img2"><img src="Album/ron_Leather_Chair2.jpg"></label>
+                <label for="img3"><img src="Album/ron_Leather_Chair3.jpg"></label>
+            </div>
+
+            <!-- MAIN IMG -->
+            <div class="main-img">
+                <img src="Album/ron_Leather_Chair1.jpg" class="img1">
+                <img src="Album/ron_Leather_Chair2.jpg" class="img2">
+                <img src="Album/ron_Leather_Chair3.jpg" class="img3">
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+
+            <h2>RON LEATHER CHAIR</h2>
+
+            <div class="rating">⭐⭐⭐⭐☆ (0 reviews)</div>
+
+            <h3 class="price">$100.00</h3>
+
+            <p>
+                Elevate your dining experience with this modern chair. 
+                Thiết kế đẹp, phù hợp mọi không gian.
+            </p>
+
+            <p><b>SKU:</b> 123956</p>
+            <p><b>CATEGORY:</b> LIVING ROOM</p>
+
+            <div class="qty">
+                <button>-</button>
+                <input type="text" value="1">
+                <button>+</button>
+            </div>
+
+            <button class="add-cart">🛒 ADD TO CART</button>
+
+            <div class="actions">
+                <span>♡ ADD TO WISHLIST</span>
+                <span>⇄ COMPARE</span>
+            </div>
+
+            <!-- ACCORDION -->
+            <details>
+                <summary>SHIPPING & RETURNS</summary>
+                <p>Thông tin giao hàng...</p>
+            </details>
+
+            <details>
+                <summary>CARE & SUSTAINABILITY</summary>
+                <p>Hướng dẫn bảo quản...</p>
+            </details>
+
+            <details>
+                <summary>DESCRIPTION</summary>
+                <p>Mô tả chi tiết sản phẩm...</p>
+            </details>
+
+        </div>
+
+    </div>
+        <footer>
+        <div class="ruler row">
+            <div class="footer_left">
+                <p class="td">Địa chỉ shop</p>
+                <p> AUREX LIVING <br>
+                    46 Đường Trần Văn Ơn, Phường Tân Sơn Nhì, TP.HCM <br>
+                    Chi nhánh: Đà Nẵng
+                </p>
+            </div>
+            <div class="footer_center">
+                <p class="td">Liên hệ & Giờ hoạt động</p>
+                <p>
+                    Hotline: 0335760073 <br>
+                    Email: nguyenvanduy207nd@gmail.com <br>
+                    Thứ 2 - CN: 8h00 - 21h00
+                </p>
+            </div>
+            <div class="footer_right">
+                <p class="td">Bản đồ & MXH</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
